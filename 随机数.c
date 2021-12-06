@@ -6,7 +6,7 @@ int main() {
 	int i,t,n=100;
 	srand((unsigned)time(&t));
 	for (i = 0; i < n; i++) {
-		a[i]=rand() % 10;
+		a[i]=rand() % 10+1;
 	}
 	for (i = 0; i < n; i++) {
 		count[a[i]]++;
